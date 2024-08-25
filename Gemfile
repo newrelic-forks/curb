@@ -6,7 +6,7 @@ gem 'mixlib-shellout'
 gem 'pry'
 
 group 'development', 'test' do
-  gem 'rdoc'
+  gem 'rdoc', '>= 6.3.4.1'
   gem 'rake'
   gem 'test-unit'
 end
